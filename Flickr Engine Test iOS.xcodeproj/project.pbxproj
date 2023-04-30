@@ -7,22 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10471024EBD912A700633769 /* Pods_Flickr_Engine_Test_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2FE44FE8B6751A7F37D000 /* Pods_Flickr_Engine_Test_iOS.framework */; };
+		5625F98C29FE3967007CA5C6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5625F98B29FE3967007CA5C6 /* MainView.swift */; };
+		5625F98E29FE3F30007CA5C6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5625F98D29FE3F30007CA5C6 /* ViewModel.swift */; };
+		5625F99029FE43DE007CA5C6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5625F98F29FE43DE007CA5C6 /* Utilities.swift */; };
+		5625F99429FE4E6C007CA5C6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5625F99329FE4E6C007CA5C6 /* Model.swift */; };
+		5625F99829FE5593007CA5C6 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5625F99729FE5593007CA5C6 /* ImageView.swift */; };
 		56E2D9FF29FABD0800148AFF /* Flickr_Engine_Test_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E2D9FE29FABD0800148AFF /* Flickr_Engine_Test_iOSApp.swift */; };
-		56E2DA0129FABD0800148AFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E2DA0029FABD0800148AFF /* ContentView.swift */; };
 		56E2DA0329FABD0800148AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E2DA0229FABD0800148AFF /* Assets.xcassets */; };
 		56E2DA0629FABD0800148AFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E2DA0529FABD0800148AFF /* Preview Assets.xcassets */; };
+		825C6A4C8BBBD62F31179359 /* Pods_Flickr_Engine_Test_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1DDCDC6CA142041CC51191 /* Pods_Flickr_Engine_Test_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		126983966DE977EC0EE4A043 /* Pods-Flickr Engine Test iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flickr Engine Test iOS.release.xcconfig"; path = "Target Support Files/Pods-Flickr Engine Test iOS/Pods-Flickr Engine Test iOS.release.xcconfig"; sourceTree = "<group>"; };
+		09FF3674F88853145E52F3F6 /* Pods-Flickr Engine Test iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flickr Engine Test iOS.release.xcconfig"; path = "Target Support Files/Pods-Flickr Engine Test iOS/Pods-Flickr Engine Test iOS.release.xcconfig"; sourceTree = "<group>"; };
+		0A1DDCDC6CA142041CC51191 /* Pods_Flickr_Engine_Test_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flickr_Engine_Test_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2590BA0FD45E59B7BE5BCC0B /* Pods-Flickr Engine Test iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flickr Engine Test iOS.debug.xcconfig"; path = "Target Support Files/Pods-Flickr Engine Test iOS/Pods-Flickr Engine Test iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5625F98B29FE3967007CA5C6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5625F98D29FE3F30007CA5C6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5625F98F29FE43DE007CA5C6 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		5625F99329FE4E6C007CA5C6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5625F99729FE5593007CA5C6 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		56E2D9FB29FABD0800148AFF /* Flickr Engine Test iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flickr Engine Test iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E2D9FE29FABD0800148AFF /* Flickr_Engine_Test_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flickr_Engine_Test_iOSApp.swift; sourceTree = "<group>"; };
-		56E2DA0029FABD0800148AFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		56E2DA0229FABD0800148AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56E2DA0529FABD0800148AFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6F2FE44FE8B6751A7F37D000 /* Pods_Flickr_Engine_Test_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flickr_Engine_Test_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94B8CF0C28A0C4CA5D61D59D /* Pods-Flickr Engine Test iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flickr Engine Test iOS.debug.xcconfig"; path = "Target Support Files/Pods-Flickr Engine Test iOS/Pods-Flickr Engine Test iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,21 +38,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10471024EBD912A700633769 /* Pods_Flickr_Engine_Test_iOS.framework in Frameworks */,
+				825C6A4C8BBBD62F31179359 /* Pods_Flickr_Engine_Test_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28A3AE4C8DCA9EF448931E8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A1DDCDC6CA142041CC51191 /* Pods_Flickr_Engine_Test_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2E0B918AA795938AC87808BC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				94B8CF0C28A0C4CA5D61D59D /* Pods-Flickr Engine Test iOS.debug.xcconfig */,
-				126983966DE977EC0EE4A043 /* Pods-Flickr Engine Test iOS.release.xcconfig */,
+				2590BA0FD45E59B7BE5BCC0B /* Pods-Flickr Engine Test iOS.debug.xcconfig */,
+				09FF3674F88853145E52F3F6 /* Pods-Flickr Engine Test iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5625F98829FE3930007CA5C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5625F99329FE4E6C007CA5C6 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5625F98929FE3938007CA5C6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5625F98D29FE3F30007CA5C6 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5625F98A29FE394D007CA5C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5625F98B29FE3967007CA5C6 /* MainView.swift */,
+				5625F99729FE5593007CA5C6 /* ImageView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		56E2D9F229FABD0800148AFF = {
@@ -53,7 +93,7 @@
 				56E2D9FD29FABD0800148AFF /* Flickr Engine Test iOS */,
 				56E2D9FC29FABD0800148AFF /* Products */,
 				2E0B918AA795938AC87808BC /* Pods */,
-				C6E3CFEDC833C95BDF5B5028 /* Frameworks */,
+				28A3AE4C8DCA9EF448931E8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,8 +109,11 @@
 			isa = PBXGroup;
 			children = (
 				56E2D9FE29FABD0800148AFF /* Flickr_Engine_Test_iOSApp.swift */,
-				56E2DA0029FABD0800148AFF /* ContentView.swift */,
+				5625F98829FE3930007CA5C6 /* Models */,
+				5625F98929FE3938007CA5C6 /* ViewModels */,
+				5625F98A29FE394D007CA5C6 /* Views */,
 				56E2DA0229FABD0800148AFF /* Assets.xcassets */,
+				5625F98F29FE43DE007CA5C6 /* Utilities.swift */,
 				56E2DA0429FABD0800148AFF /* Preview Content */,
 			);
 			path = "Flickr Engine Test iOS";
@@ -84,14 +127,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C6E3CFEDC833C95BDF5B5028 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6F2FE44FE8B6751A7F37D000 /* Pods_Flickr_Engine_Test_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,11 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56E2DA0929FABD0800148AFF /* Build configuration list for PBXNativeTarget "Flickr Engine Test iOS" */;
 			buildPhases = (
-				F455B9903D76132632031478 /* [CP] Check Pods Manifest.lock */,
+				1D211327FA5BD769D4679D9B /* [CP] Check Pods Manifest.lock */,
 				56E2D9F729FABD0800148AFF /* Sources */,
 				56E2D9F829FABD0800148AFF /* Frameworks */,
 				56E2D9F929FABD0800148AFF /* Resources */,
-				4F3B9F418B4255704D5ADDAC /* [CP] Embed Pods Frameworks */,
+				96B9B67CE47A57ED94819F8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,24 +195,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4F3B9F418B4255704D5ADDAC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Flickr Engine Test iOS/Pods-Flickr Engine Test iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Flickr Engine Test iOS/Pods-Flickr Engine Test iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flickr Engine Test iOS/Pods-Flickr Engine Test iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F455B9903D76132632031478 /* [CP] Check Pods Manifest.lock */ = {
+		1D211327FA5BD769D4679D9B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,6 +217,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		96B9B67CE47A57ED94819F8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flickr Engine Test iOS/Pods-Flickr Engine Test iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flickr Engine Test iOS/Pods-Flickr Engine Test iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flickr Engine Test iOS/Pods-Flickr Engine Test iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -206,7 +241,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56E2DA0129FABD0800148AFF /* ContentView.swift in Sources */,
+				5625F99829FE5593007CA5C6 /* ImageView.swift in Sources */,
+				5625F99429FE4E6C007CA5C6 /* Model.swift in Sources */,
+				5625F98C29FE3967007CA5C6 /* MainView.swift in Sources */,
+				5625F98E29FE3F30007CA5C6 /* ViewModel.swift in Sources */,
+				5625F99029FE43DE007CA5C6 /* Utilities.swift in Sources */,
 				56E2D9FF29FABD0800148AFF /* Flickr_Engine_Test_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -318,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -330,7 +369,7 @@
 		};
 		56E2DA0A29FABD0800148AFF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94B8CF0C28A0C4CA5D61D59D /* Pods-Flickr Engine Test iOS.debug.xcconfig */;
+			baseConfigurationReference = 2590BA0FD45E59B7BE5BCC0B /* Pods-Flickr Engine Test iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -345,6 +384,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +400,7 @@
 		};
 		56E2DA0B29FABD0800148AFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 126983966DE977EC0EE4A043 /* Pods-Flickr Engine Test iOS.release.xcconfig */;
+			baseConfigurationReference = 09FF3674F88853145E52F3F6 /* Pods-Flickr Engine Test iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -375,6 +415,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

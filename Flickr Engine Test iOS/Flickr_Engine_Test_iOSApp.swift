@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Flickr_Engine_Test_iOSApp: App {
+    
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
+            
+            MainView()
         }
     }
 }
