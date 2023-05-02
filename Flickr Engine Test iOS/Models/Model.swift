@@ -41,20 +41,22 @@ struct Photo: Identifiable, Codable {
     
     var id = UUID()
     
-    var photoID: String?
-    var secret: String?
-    var isFamily: Bool?
-    var isPublic: Bool?
+    var photoID: String? = ""
+    var secret: String? = ""
+    var isFamily: Bool? = false
+    var isPublic: Bool? = false
     
-    var farm: Int?
-    var owner: String?
-    var server: String?
-    var urlMedia: String?
+    var farm: Int? = 0
+    var owner: String? = ""
+    var server: String? = ""
+    var urlMedia: String? = ""
     
-    var title: String?
-    var isFriend: Bool?
-    var height: Int?
-    var width: Int?
+    var title: String? = ""
+    var isFriend: Bool? = false
+    var height: Int? = 0
+    var width: Int? = 0
+    
+    init() {}
     
     private enum CodingKeys: String, CodingKey {
         
@@ -78,27 +80,27 @@ struct Photo: Identifiable, Codable {
         
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
-        self.photoID = try container.decodeIfPresent(String.self, forKey: .photoID)
-        self.secret = try container.decodeIfPresent(String.self, forKey: .secret)
-        if let isFamilyInt = try container.decodeIfPresent(Int.self, forKey: .isFamily), let isFamily = isFamilyInt.toBool() {
+        self.photoID = try? container.decode(String.self, forKey: .photoID)
+        self.secret = try? container.decode(String.self, forKey: .secret)
+        if let isFamilyInt = try? container.decode(Int.self, forKey: .isFamily), let isFamily = isFamilyInt.toBool() {
             
             self.isFamily = isFamily
         }
-        if let isPublicInt = try container.decodeIfPresent(Int.self, forKey: .isPublic), let isPublic = isPublicInt.toBool() {
+        if let isPublicInt = try? container.decode(Int.self, forKey: .isPublic), let isPublic = isPublicInt.toBool() {
             
             self.isPublic = isPublic
         }
-        self.farm = try container.decodeIfPresent(Int.self, forKey: .farm)
-        self.owner = try container.decodeIfPresent(String.self, forKey: .owner)
-        self.server = try container.decodeIfPresent(String.self, forKey: .server)
-        self.urlMedia = try container.decodeIfPresent(String.self, forKey: .urlMedia)
-        self.title = try container.decodeIfPresent(String.self, forKey: .title)
-        if let isFriendInt = try container.decodeIfPresent(Int.self, forKey: .isFriend), let isFriend = isFriendInt.toBool() {
+        self.farm = try? container.decode(Int.self, forKey: .farm)
+        self.owner = try? container.decode(String.self, forKey: .owner)
+        self.server = try? container.decode(String.self, forKey: .server)
+        self.urlMedia = try? container.decode(String.self, forKey: .urlMedia)
+        self.title = try? container.decode(String.self, forKey: .title)
+        if let isFriendInt = try? container.decode(Int.self, forKey: .isFriend), let isFriend = isFriendInt.toBool() {
             
             self.isFriend = isFriend
         }
-        self.height = try container.decodeIfPresent(Int.self, forKey: .height)
-        self.width = try container.decodeIfPresent(Int.self, forKey: .width)
+        self.height = try? container.decode(Int.self, forKey: .height)
+        self.width = try? container.decode(Int.self, forKey: .width)
     }
     
     func encode(to encoder: Encoder) throws {
