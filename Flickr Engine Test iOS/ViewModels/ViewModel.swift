@@ -85,8 +85,6 @@ class ViewModel: ObservableObject {
         
         let serviceName = "flickr.photos.search"
         
-//        let secret = "7a52d018515766c5"
-        
         return "https://api.flickr.com/services/rest?api_key=\(apiKey)&method=\(serviceName)&tags=\(keyword)&format=json&nojsoncallback=true&extras=media&extras=url_sq&extras=url_m&per_page=21&page=\(page)"
     }
     
